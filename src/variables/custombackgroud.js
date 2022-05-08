@@ -1,6 +1,6 @@
 const Background = () => {
     return ( 
-        <div class="area" >
+        
             <ul class="circles">
                     <li></li>
                     <li></li>
@@ -13,7 +13,6 @@ const Background = () => {
                     <li></li>
                     <li></li>
             </ul>
-    </div >
 );
 }
  

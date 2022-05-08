@@ -25,10 +25,9 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import Footer from "components/Footer/Footer.js";
 import Sidebar from "components/Sidebar/Sidebar.js";
 import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
-import Background from "variables/custombackgroud";
-import "assets/css/background.css";
 
 import routes from "routes.js";
+import Background from "variables/custombackgroud";
 
 var ps;
 
@@ -68,7 +67,6 @@ function Dashboard(props) {
         activeColor={activeColor}
       />
       <div className="main-panel" ref={mainPanel}>
-        <DemoNavbar {...props} />
         <Switch>
           {routes.map((prop, key) => {
             return (
@@ -80,29 +78,15 @@ function Dashboard(props) {
             );
           })}
         </Switch>
+        <Background/>
         <Footer fluid />
       </div>
-      <FixedPlugin
-        bgColor={backgroundColor}
-        activeColor={activeColor}
-        handleActiveClick={handleActiveClick}
-        handleBgClick={handleBgClick}
-      />
-      
-            <ul className ="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div>
+
+         
+
   
+    </div>
+    
   );
 }
 

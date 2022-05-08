@@ -46,7 +46,7 @@ function Header(props) {
   const location = useLocation();
   const toggle = () => {
     if (isOpen) {
-      setColor("transparent");
+      setColor("#transparent");
     } else {
       setColor("dark");
     }
@@ -92,6 +92,7 @@ function Header(props) {
   return (
     // add or remove classes depending if we are on full-screen-maps page or not
     <Navbar
+    
       color={
         props.location.pathname.indexOf("full-screen-maps") !== -1
           ? "dark"
@@ -105,7 +106,8 @@ function Header(props) {
             (color === "transparent" ? "navbar-transparent " : "")
       }
     >
-      <Container fluid>
+
+      <Container fluid >
         <div className="navbar-wrapper">
           <div className="navbar-toggle">
             <button
@@ -175,6 +177,8 @@ function Header(props) {
         </Collapse>
       </Container>
     </Navbar>
+
+
   );
 }
 
