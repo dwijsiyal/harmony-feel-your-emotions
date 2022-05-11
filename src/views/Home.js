@@ -13,6 +13,7 @@ import {
   CardTitle,
   Row,
   Col,
+  Button
 } from "reactstrap";
 import { useState } from "react";
 function Home(){
@@ -44,6 +45,11 @@ const styleObj = {
   textAlcign: "center",
   paddingTop: "100px",
 }
+const handleClick = (e) => {
+  e.preventDefault();
+  console.log(window.location);
+  window.location.replace = "http://127.0.0.1:5000";
+}
     return(
         <div className="area" style={{padding: 50}}>
           <>
@@ -56,19 +62,22 @@ const styleObj = {
           <Row>
               {mainCards.map((mainCard) => (
                 <Col lg="3" md="6" sm="6">
-              <Card className="card-stats">
+              <Card className="card-stats" >
                 <CardBody>
                   <Row>
                   <Col md="8" xs="7">
                     </Col>
                     <Col md="8" xs="7" >
-                      <div className="numbers" style= {{alignContent: "center"}}>                           
-                            <div className="image shake" style={{alignItems:"center"}}><img src={mainCard.imgsrc} alt= {mainCard.cardName} /></div>                              
+                      <div className="numbers" style= {{alignContent: "center"}} >                           
+                            <div className="image" style={{alignItems:"center"}} ><img src={mainCard.imgsrc} alt= {mainCard.cardName} /></div>                              
                         <CardTitle tag="p" style={{alignContent: "center"}}>{mainCard.cardName}</CardTitle>
                         <p />
                       </div>
                     </Col>
-                  <div className="nc-icon nc-button-play text-success"style={{alignContent:"right"}}></div>
+
+                        
+                  <a href="#" onClick={handleClick}><div className="nc-icon nc-button-play text-success"style={{alignContent:"right"}}></div></a>
+               
                   </Row>
                 </CardBody>
                 <CardFooter>
@@ -84,7 +93,7 @@ const styleObj = {
               <div className="content" style={styleObj}><h1><i class="fas fa-solid fa-moon"></i></h1></div>
               </Col>
               <Col>
-              <div className="content"><h1 className="" style={styleObj}>How are you Feeling?</h1></div>
+              <div className="content"><h2 className="" style={styleObj}>How are you Feeling?</h2></div>
               </Col>
               <Col></Col>
             </Row>

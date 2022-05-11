@@ -1,0 +1,17 @@
+{
+    "emotions" : {
+
+            "happy": [{
+
+                "title" : "Title",
+                "description": "description",
+                "imsrc": "imgsrc",
+                "duration" : "duration",
+                "link": "link"
+            },
+            {
+
+            }
+        ]
+}
+}

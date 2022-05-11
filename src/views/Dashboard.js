@@ -47,7 +47,7 @@ function Dashboard() {
                 <Row>
                   <Col md="4" xs="5">
                     <div className="icon-big text-center icon-warning">
-                      <i className="nc-icon nc-globe text-warning" />
+                      <i className="nc-icon nc-globe text-warning" onClick={() => {window.location.href("http://127.0.0.1:5000")}}/>
                     </div>
                   </Col>
                   <Col md="8" xs="7">

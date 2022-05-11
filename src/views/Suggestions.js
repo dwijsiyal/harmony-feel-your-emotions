@@ -1,47 +1,70 @@
-import { Row } from "reactstrap";
-
+import {
+    Card,
+    CardHeader,
+    CardBody,
+    CardFooter,
+    CardTitle,
+    Row,
+    Col,
+  } from "reactstrap";
+import Camera from "assets/img/card_images/camera_1.png"
 const Suggestions = () => {
 
-    const listResults = [{
+    const listResults = [
+        {
         title: "Video Title",
         image: "imagesrc",
         link: "link to youtube video",
         duration: "length of video"
-    }];
+    },
+    {
+        title: "Video Title",
+        image: "imagesrc",
+        link: "link to youtube video",
+        duration: "length of video"
+    }
+
+];
     return ( 
+        <div className="area">
+        <>
+        
+        <div className="wrapper" style={{padding: 50}}>
         <Row>
-            <Col>
             {listResults.map((suggestion) => (
                 <Col md="8">
                 <Card className="card-chart">
                   <CardHeader>
-                    <CardTitle tag="h5">NASDAQ: AAPL</CardTitle>
-                    <p className="card-category">Line Chart with Points</p>
+                    <CardTitle tag="h5">{listResults.title}</CardTitle>
+                   
                   </CardHeader>
                   <CardBody>
-                    <Line
-                      data={dashboardNASDAQChart.data}
-                      options={dashboardNASDAQChart.options}
-                      width={400}
-                      height={100}
-                    />
+                    <Row>
+                        <Col>
+                        <div className="content"><img src={Camera} alt="Linked to Youtube" /></div>
+                        </Col>
+                        <Col style={{alignContent: "start"}}>
+                        kjhvkhj
+                        </Col>
+                    </Row>
                   </CardBody>
                   <CardFooter>
                     <div className="chart-legend">
-                      <i className="fa fa-circle text-info" /> Tesla Model S{" "}
-                      <i className="fa fa-circle text-warning" /> BMW 5 Series
+                    <i class="fab fa-youtube" style={{color: "red"}}></i>{" Youtube" } 
+                    
                     </div>
                     <hr />
                     <div className="card-stats">
-                      <i className="fa fa-check" /> Data information certified
+                    <i class="far fa-clock">{" "+listResults.duration}</i>
                     </div>
                   </CardFooter>
                 </Card>
               </Col>
             ))}
-            </Col>
         </Row>
-
+        </div>
+        </>
+        </div>
      );
 }
  

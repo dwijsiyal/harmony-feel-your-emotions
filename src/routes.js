@@ -7,6 +7,8 @@ import Maps from "views/Map.js";
 import UserPage from "views/User.js";
 import UpgradeToPro from "views/Upgrade.js";
 import Home from "views/Home"
+import Suggestions from "views/Suggestions";
+import Upgrade from "views/Upgrade";
 
 var routes = [
   {
@@ -66,12 +68,19 @@ var routes = [
     layout: "/admin",
   },
   {
-    pro: true,
-    path: "/upgrade",
-    name: "Upgrade to PRO",
-    icon: "nc-icon nc-spaceship",
-    component: UpgradeToPro,
+    path: "/Suggestions",
+    name: "Suggestions",
+    icon: "nc-icon nc-bank",
+    component: Suggestions,
     layout: "/admin",
   },
+  {
+    path: "/UpgradeToPro",
+    name: "Upgrade",
+    icon: "nc-icon nc-bank",
+    component: Upgrade,
+    layout: "/admin",
+  },
+
 ];
 export default routes;
