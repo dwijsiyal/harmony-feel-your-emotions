@@ -76,11 +76,20 @@ var routes = [
   },
   {
     path: "/UpgradeToPro",
-    name: "Upgrade",
+    name: "Upgrade  ",
     icon: "nc-icon nc-bank",
     component: Upgrade,
     layout: "/admin",
   },
+  {
+    path: "http://127.0.0.1:5000",
+    name: "HOlaa  ",
+    icon: "nc-icon nc-bank",
+    component: Suggestions,
+    layout: "/admin",
+  },
+  
+
 
 ];
 export default routes;

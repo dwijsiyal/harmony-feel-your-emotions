@@ -1,8 +1,9 @@
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, Response, redirect, make_response, after_this_request
 import cv2
 import numpy as np
 from tensorflow.keras.models import model_from_json  
-from tensorflow.keras.preprocessing import image  
+from tensorflow.keras.preprocessing import image
+import time
   
 
 #load model  
@@ -13,10 +14,11 @@ model.load_weights('fer.h5')
 
 
 face_haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')  
-
-
+emotion = "happy"
+starttime = 0
+emoji_dist = {0: "emojis/angry.png", 1: "emojis/disgusted.png", 2: "emojis/fearful.png", 3: "emojis/happy.png",
+              4: "emojis/sad.png", 5: "emojis/surpriced.png", 6: "emojis/neutral.png"}
 app = Flask(__name__)
-
 camera = cv2.VideoCapture(0)
 # generate frame by frame from camera
 def gen_frames():
@@ -37,7 +39,7 @@ def gen_frames():
 
 
             for (x,y,w,h) in faces_detected:
-                print('WORKING')
+                global starttime
                 cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),thickness=5)
                 roi_gray=gray_img[y:y+w,x:x+h]          #cropping region of interest i.e. face area from  image
                 roi_gray=cv2.resize(roi_gray,(48,48))
@@ -45,7 +47,7 @@ def gen_frames():
                 img_pixels = np.expand_dims(img_pixels, axis = 0)
                 img_pixels /= 255
 
-                print(img_pixels.shape)
+
 
                 predictions = model.predict(img_pixels)
 
@@ -57,7 +59,11 @@ def gen_frames():
                 predicted_emotion = emotions[max_index]
                 img = cv2.imread(emoji_dist[max_index])
                 foreground = img
-                print(predicted_emotion)
+
+
+                global emotion
+                emotion = emotions[max_index]
+
                 added_image = cv2.addWeighted(frame[0:150, 0:150, :], alpha, foreground[0:150, 0:150, :], 1 - alpha,
                                               0)  # to overlay image on the opencv videocapture
                 frame[0:150, 0:150] = added_image
@@ -78,14 +84,28 @@ def gen_frames():
 
 @app.route('/video_feed')
 def video_feed():
-    #Video streaming route. Put this in the src attribute of an img tag
+    global starttime
+    global emotion
+    starttime = time.time()
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
-
 
 @app.route('/')
 def index():
+    global starttime
+
+
     return render_template('index.html')
 
+
+# def delayRedirect():
+#     global emotion
+#     @after_this_request
+#     def index(self):
+#         return render_template('index.html')
+#     time.sleep(6)
+#     #print(emotion)
+#     response = redirect("http://localhost:3000/admin/Suggestions?emotion=")
+#     return response
 
 if __name__ == '__main__':
     app.run(debug=True)
