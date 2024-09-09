@@ -71,11 +71,8 @@ The trained model shows approximately 60% accuracy in detecting emotions, which 
 ## Conclusion
 Harmony is a step towards improving mental health accessibility and awareness. By providing an easy-to-use platform, it encourages users to manage their mental well-being proactively.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Authors
-Shivam Patel - Master of Computer Science @ Stevens Institute of Technology
-Dwij Siyal - Master of Data Science @ University of Regina
-Arya Shah - Master of Computer Science @ Stevens Institute of Technology
-Guided By: Prof. Vaibhav Gandhi Professor at Navrachana University
+## Authors
+- Dwij Siyal - Master of Data Science @ University of Regina
+- Arya Shah - Master of Computer Science @ Stevens Institute of Technology
+- Shivam Patel - Master of Computer Science @ Stevens Institute of Technology
+- Guided By: Prof. Vaibhav Gandhi Professor at Navrachana University
