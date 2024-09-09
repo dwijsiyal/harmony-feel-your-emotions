@@ -1,0 +1,525 @@
+{
+    "emotions" : {
+
+            "happy": [
+                {
+                "imgsrc":
+                "/img/happy/h1.jpg",
+                "title": "Serotonin Release Music",
+                "description": 
+                "Happiness Frequency 💚 Serotonin Release Music with Binaural Beats, Relaxing Music for Happiness",
+                "duration": "1:42:37",
+                "link" : "https://www.youtube.com/watch?v=GbKkMCGLDpw"
+              },
+              {
+                "imgsrc":
+                "/img/happy/h2.jpg",
+                "title": "Happiness & Motivation",
+                "description":
+                "Confidence, Happiness & Motivation - Binaural Beats & Isochronic Tones (Subliminal Messages)",
+                "duration": "9:34:04",
+                "link": "https://www.youtube.com/watch?v=GXeAOtb1VeA"
+            
+              },
+              {
+                "imgsrc":
+                "/img/happy/h3.jpg",
+                "title": "True Inner Peace",
+                "description":
+                "True Inner Peace - Heal Your Soul - Binaural Beats & Isochronic Tones (With Subliminal Messages)",
+                "duration": "9:35:31",
+                "link": "https://www.youtube.com/watch?v=Kfy-dwPBtKU"
+              },
+              {
+                "imgsrc":
+                "/img/happy/h4.jpg",
+                "title": "Remove Mental Blockages",
+                "description":
+                "Remove Mental Blockages & Subconscious Negativity ☯ Dissolve Negative Patterns ☯ Binaural Beats",
+                "duration": "1:00:00",
+                "link": "https://www.youtube.com/watch?v=IIfw9kAbMlc"
+              },
+              {
+                "imgsrc":
+                "/img/happy/h5.jpg",
+                "title": "Alpha Waves for Serotonin",
+                "description":
+                "Serotonin Release - Alpha Waves for Serotonin & Endorphins - Binaural Beats - Meditation Music",
+                "duration": "1:30:00",
+            
+                "link": "https://www.youtube.com/watch?v=dPqCRyzhXn8"
+              },
+              {
+                "imgsrc":
+                "/img/happy/h6.jpg",
+                "title": " Endorphin Release Music",
+                "description":
+                "Happiness Frequency: Serotonin, Dopamine, Endorphin Release Music, Release Negativityn",
+                "duration": "5:00:00",
+            
+                "link": "https://www.youtube.com/watch?v=8M143iRrbgw"
+              },
+              {
+                "imgsrc":
+                "/img/icons/more.png",
+                "title": "More Suggestions?",
+                "description":
+                "Click here to see more options",
+                "duration": " :)",
+            
+                "link": "https://www.youtube.com/results?search_query=happy+binaural+beats"
+              }
+        ],
+        "sad": [
+            {
+                "imgsrc":
+                "/img/sad/s1.jpg",
+                "title": "Sad Piano Meditation Therapy",
+                "description":
+                "MUSIC FOR CRYING! Sad Piano Meditation Therapy Binaural Waves",
+                "price": "View on Youtube",
+                "link" : "https://www.youtube.com/watch?v=PjQLkOXlqKI"
+              },
+              {
+                "imgsrc":
+                "/img/sad/s2.jpg",
+                "title": "Heal Your Past",
+                "description":
+                "Heal Your Past & Let Go Of Your Pain - Binaural Beats & Isochronic Tones (With Subliminal Messages)",
+                "price": "View on Youtube",
+                "link": "https://www.youtube.com/watch?v=0oQ-EAS3b7w"
+            
+              },
+              {
+                "imgsrc":
+                "/img/sad/s3.jpg",
+                "title": "Yep",
+                "description":
+                "this beat will make you cry",
+            
+                "link": "https://www.youtube.com/watch?v=gjgcSLuy2V8"
+              },
+            
+              {
+                "imgsrc":
+                "/img/icons/more.png",
+                "title": "More Suggestions?",
+                "description":
+                "Click on the image or youtube icon",
+            
+                "link": "https://www.youtube.com/results?search_query=sad+binaural+beats"
+              }
+        ],
+        "angry": [
+            {
+                "imgsrc":
+                "/img/angry/a1.jpg",
+                "title": "No More Anger",
+                "description":
+                "No More Anger - Binaural Beats & Isochronic Tones (Subliminal Messages).",
+            
+                "link" : "https://www.youtube.com/watch?v=Fh3Y9vTCOGQ"
+              },
+              {
+                "imgsrc":
+                "/img/angry/a2.jpg",
+                "title": "Anger & Stress Relief",
+                "description":
+                "Anger & Stress Relief - Binaural Beats Session - By Minds in Unison",
+                "price": "View on Youtube",
+                "link": "https://www.youtube.com/watch?v=0fG1IK57VhQ"
+            
+              },
+              {
+                "imgsrc":
+                "/img/angry/a3.jpg",
+                "title": "(432 Hz) : Heal Anxiety",
+                "description":
+                "Let Go of Resentment & Anger (432 Hz) : Heal Anxiety, Guilt, Bitterness - Reprogram Your Mind",
+            
+                "link": "https://www.youtube.com/watch?v=8wVtNyJN-pA"
+              },
+              {
+                "imgsrc":
+                "/img/angry/a4.jpg",
+                "title": "Anger Management , Reduce Fear",
+                "description":
+                "Anger Management , Reduce Fear, Anti Depression, Stress Relief Binaural Beats Music",
+            
+                "link": "https://www.youtube.com/watch?v=j56coeJEeX4"
+              },
+            
+              {
+                "imgsrc":
+                "/img/icons/more.png",
+                "title": "More Suggestions?",
+                "description":
+                "Click on the image or youtube icon",
+            
+                "link": "https://www.youtube.com/results?search_query=angry+binaural+beats"
+              }
+            ],
+            "disgust": [
+                {
+                    "title" : "disgust",
+                    "description": "description",
+                    "imgsrc": "imgsrc",
+                    "duration" : "duration",
+                    "link": "link"
+                },
+                {
+                    
+                }
+                ],
+                "fear": [
+                    {
+                        "imgsrc":
+                        "/img/fear/f1.jpg",
+                        "title": "let go of Worries",
+                        "description":
+                        "852 Hz - LET GO of Fear, Overthinking & Worries | Cleanse Destructive Energy | Awakening Intuition",
+                        "price": "View on Youtube",
+                        "link" : "https://www.youtube.com/watch?v=-vvpsIiUVKY"
+                      },
+                      {
+                        "imgsrc":
+                        "/img/fear/f2.jpg",
+                        "title": "BECOME FEARLESS",
+                        "description":
+                        "SOLFEGGIO 396 Hz ⧊ BECOME FEARLESS ⧊ POWERFUL Sleep Meditation Music | Solfeggio Frequencies",
+                        "price": "View on Youtube",
+                        "link": "https://www.youtube.com/watch?v=ZeBHeD7gTzI"
+                    
+                      },
+                      {
+                        "imgsrc":
+                        "/img/fear/f3.jpg",
+                        "title": "432Hz Deep Relaxation",
+                        "description":
+                        "DEEP Theta Binaural Beats ➤ LET GO of Fear, Overthinking & Worries ➤ 432Hz Deep Relaxation",
+                    
+                        "link": "https://www.youtube.com/watch?v=Mgwd_3k3pOw"
+                      },
+                      {
+                        "imgsrc":
+                        "/img/fear/f4.jpg",
+                        "title": "Destroy Unconscious Blockage",
+                        "description":
+                        "432 Hz Destroy Unconscious Blockages & Fear, Binaural Beats",
+                    
+                        "link": "https://www.youtube.com/watch?v=3hxvULliUa0"
+                      },
+                      {
+                        "imgsrc":
+                        "/img/fear/f5.jpg",
+                        "title": "Sound Therapy",
+                        "description":
+                        "Release Fear,Anxiety And Stress Subliminal - Sound Therapy with Binaural Beats",
+                    
+                        "link": "https://www.youtube.com/watch?v=HrB8DXFAt74"
+                      },
+                      {
+                        "imgsrc":
+                        "/img/fear/f6.jpg",
+                        "title": " Release Subconscious Fear",
+                        "description":
+                        "Release Subconscious Fear & Trapped Negative Energy ➤ DEEP Theta BinauralBeat.",
+                    
+                        "link": "https://www.youtube.com/watch?v=3iFN52ok6bs"
+                      },
+                      {
+                        "imgsrc":
+                        "/img/fear/f7.jpg",
+                        "title": "Overcome Phobia & Anxiety: ",
+                        "description":
+                        "Overcome Phobia & Anxiety: Cleanse Destructive Energy, Release Fear Binaural Beats | Mood Elevator",
+                    
+                        "link": "https://www.youtube.com/watch?v=Np1SebasvPg"
+                      },
+                    
+                      {
+                        "imgsrc":
+                        "/img/icons/more.png",
+                        "title": "More Suggestions?",
+                        "description":
+                        "Click on the image or youtube icon",
+                    
+                        "link": "https://www.youtube.com/results?search_query=fear+binaural+beats"
+                      }
+                    ],
+                    "surprised": [
+                        {
+                            "title" : "suprised",
+                            "description": "description",
+                            "imgsrc": "imgsrc",
+                            "duration" : "duration",
+                            "link": "link"
+                        },
+                        {
+                            
+                        }
+                        ],
+                        "neutral": [
+                            {
+                                "title" : "neutral",
+                                "description": "description",
+                                "imgsrc": "imgsrc",
+                                "duration" : "duration",
+                                "link": "link"
+                            },
+                            {
+                                
+                            }
+                            ],
+                            "depressed": [
+                                {
+                                    "imgsrc":
+                                    "/img/depressed/t1.png",
+                                    "title": "Theta Binural Beats",
+                                    "description":
+                                    "4 HOURS of ULTRA DEEP RELAXATION. Binaural Beat (432Hz Music) Theta Wave.",
+                                    "price": "View on Youtube",
+                                    "link" : "https://www.youtube.com/watch?v=EKX-j4VWXcE&t=191s"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/t2.png",
+                                    "title": "Healing Music",
+                                    "description":
+                                    "Overcome Depression - Binaural Beats Music to Boost Serotonin, Dopamine and Endorphin, Healing Music",
+                                    "price": "View on Youtube",
+                                    "link": "https://www.youtube.com/watch?v=3pNpHZ1yv3I"
+                                
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/t3.png",
+                                    "title": "LIVE",
+                                    "description":
+                                    "Calming Music Healing 24/7 💤 | Sleeping Music 528Hz | Positive Energy Cleanse | Sleep Deep Music",
+                                    "price": "300",
+                                    "link": "https://www.youtube.com/watch?v=Ih5E-2Kg95U"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/d1.jpg",
+                                    "title": "Brainwave Music",
+                                    "description":
+                                    "Binaural Beats for Depression Healing, Overcome Depression with Brainwave Music",
+                                
+                                    "link": "https://www.youtube.com/watch?v=7GSre2_s2uo"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/d2.jpg",
+                                    "title": "Anxiety Relief ",
+                                    "description":
+                                    "Depression Removal | Anxiety Relief | Binaural Beats",
+                                
+                                    "link": "https://www.youtube.com/watch?v=o-8vOjYU-W0"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/d3.jpg",
+                                    "title": " Sleep Hypnosis",
+                                    "description":
+                                    "Instant Depression Removal - Anxiety Relief | Sleep Hypnosis Binaural Beats Session",
+                                
+                                    "link": "https://www.youtube.com/watch?v=91OKIDf3i48"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/d4.jpg",
+                                    "title": "LOFI HIPHOP ",
+                                    "description":
+                                    "LOFI HIPHOP with Healing Binaural Beats for Depression | BINAURAL BEAT THERAPY",
+                                
+                                    "link": "https://www.youtube.com/watch?v=zJPGW1faKPY"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/d5.jpg",
+                                    "title": "Neurosis Relief ",
+                                    "description":
+                                    "15.5 Hz Depression Disorders, Neurosis - Relief ❁ Binaural Beats ☯ PURE BRAINWAVE ENTRAINMENT",
+                                
+                                    "link": "https://www.youtube.com/watch?v=RP_GtoywU24"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/d6.jpg",
+                                    "title": "Delta Binaural Beats",
+                                    "description":
+                                    "Anti-Depression - Delta Binaural Beats - Pure 1.5Hz",
+                                
+                                    "link": "https://www.youtube.com/watch?v=AKjD6q19R5M"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/depressed/d7.jpg",
+                                    "title": "Depression healing ",
+                                    "description":
+                                    "Overcome Depression and Anxiety with Binaural Beats (Powerful)",
+                                
+                                    "link": "https://www.youtube.com/watch?v=PwRi49t5TjM"
+                                  },
+                                  {
+                                    "imgsrc":
+                                    "/img/icons/more.png",
+                                    "title": "More Suggestions?",
+                                    "description":
+                                    "Click on the image or youtube icon",
+                                
+                                    "link": "https://www.youtube.com/results?search_query=depression+binaural+beats"
+                                  }
+                                ],
+                                "relaxed": [
+                                    {
+                                        "imgsrc":
+                                        "/img/relax/r1.jpg",
+                                        "title": "Stress Relief Music",
+                                        "description":
+                                        "RELAXING : GENTLE VIBRATIONS - Feel Calm and Centered with Binaural Beats",
+                                    
+                                        "link": "https://www.youtube.com/watch?v=7GSre2_s2uo"
+                                      },
+                                      {
+                                        "imgsrc":
+                                        "/img/relax/r2.jpg",
+                                        "title": "Happiness ",
+                                        "description":
+                                        "Happiness Frequency: Serotonin, Dopamine, Endorphin Release Music, Binaural Beats Meditation Music",
+                                    
+                                        "link": "https://www.youtube.com/watch?v=LFGsZ6ythQQ"
+                                      },
+                                      {
+                                        "imgsrc":
+                                        "/img/relax/r3.jpg",
+                                        "title": "Theta Waves (15 min)",
+                                        "description":
+                                        "Relaxing Theta Waves (15 min) - Binaural Beats - Slow Down Your Brainwaves",
+                                    
+                                        "link": "https://www.youtube.com/watch?v=dxGU80Ny0JQ"
+                                      },
+                                      {
+                                        "imgsrc":
+                                        "/img/relax/r4.jpg",
+                                        "title": "Isochronic Tones",
+                                        "description":
+                                        "Relaxation - Feel Your Inner Peace - Binaural Beats & Isochronic Tones (With Subliminal Messages)",
+                                    
+                                        "link": "https://www.youtube.com/watch?v=l-iqK69JULo"
+                                      },
+                                      {
+                                        "imgsrc":
+                                        "/img/relax/r5.jpg",
+                                        "title": "3.2Hz Delta Brain Waves",
+                                        "description":
+                                        "The DEEPEST Healing Sleep | 3.2Hz Delta Brain Waves | REM Sleep Music - Binaural Beats",
+                                    
+                                        "link": "https://www.youtube.com/watch?v=xsfyb1pStdw"
+                                      },
+                                      {
+                                        "imgsrc":
+                                        "/img/relax/r6.jpg",
+                                        "title": "INSOMNIA RELIEF",
+                                        "description":
+                                        "INSOMNIA RELIEF [Fall Asleep Fast] 'The Blue Forest' Binaural Beats Sleep Music",
+                                    
+                                        "link": "https://www.youtube.com/watch?v=FIMdEPd98xs"
+                                      },
+                                      {
+                                        "imgsrc":
+                                        "/img/relax/r7.jpg",
+                                        "title": "lofi beats",
+                                        "description":
+                                        "code-fi / lofi beats to code/relax to",
+                                    
+                                        "link": "https://www.youtube.com/watch?v=f02mOEt11OQ"
+                                      },
+                                      {
+                                        "imgsrc":
+                                        "/img/icons/more.png",
+                                        "title": "More Suggestions?",
+                                        "description":
+                                        "Click on the image or youtube icon",
+                                    
+                                        "link": "https://www.youtube.com/results?search_query=relaxed+binaural+beats"
+                                      }
+                                    ],
+                                    "focused": [
+                                        {
+                                            "imgsrc":
+                                            "/img/focus/f1.jpg",
+                                            "title": "Focus Music",
+                                            "description":
+                                            "Focus Music, Binaural Beats Concentration Music for Studying, Super Intelligence",
+                                        
+                                            "link": "https://www.youtube.com/watch?v=U0eLmyJkQBc"
+                                          },
+                                          {
+                                            "imgsrc":
+                                            "/img/focus/f2.jpg",
+                                            "title": "Studying",
+                                            "description":
+                                            "90 Minutes of Focused Studying: The Best Binaural Beats",
+                                        
+                                            "link": "https://www.youtube.com/watch?v=eqKQACO4HAk"
+                                          },
+                                          {
+                                            "imgsrc":
+                                            "/img/focus/f3.jpg",
+                                            "title": "Alpha waves",
+                                            "description":
+                                            "Study Music Alpha Waves: Relaxing Studying Music, Brain Power, Focus Concentration Music, ☯161",
+                                        
+                                            "link": "https://www.youtube.com/watch?v=WPni755-Krg"
+                                          },
+                                          {
+                                            "imgsrc":
+                                            "/img/focus/f4.jpg",
+                                            "title": "Study Music",
+                                            "description":
+                                            "Deep Focus Music - Binaural Beats Concentration Music, Study Music",
+                                        
+                                            "link": "https://www.youtube.com/watch?v=g1LNTAdIi8k"
+                                          },
+                                          {
+                                            "imgsrc":
+                                            "/img/focus/f5.jpg",
+                                            "title": "Beta Waves Music",
+                                            "description":
+                                            "Super Intelligence: 14 Hz Binaural Beats Beta Waves Music for Focus, Memory and Concentration",
+                                        
+                                            "link": "https://www.youtube.com/watch?v=HA6nSQawROM"
+                                          },
+                                          {
+                                            "imgsrc":
+                                            "/img/focus/f6.jpg",
+                                            "title": "Memory Music",
+                                            "description":
+                                            "Super Intelligence: 🍎 Memory Music, Improve Memory and Concentration, Binaural Beats Focus Music",
+                                        
+                                            "link": "https://www.youtube.com/watch?v=mg7netw1JuM"
+                                          },
+                                          {
+                                            "imgsrc":
+                                            "/img/focus/f7.jpg",
+                                            "title": "Improve Memory ",
+                                            "description":
+                                            "BiNaural Beats Study Music - Improve Memory and Concentration",
+                                        
+                                            "link": "https://www.youtube.com/watch?v=xSnulMePm_8"
+                                          },
+                                          {
+                                            "imgsrc":
+                                            "/img/icons/more.png",
+                                            "title": "More Suggestions?",
+                                            "description":
+                                            "Click on the image or youtube icon",
+                                        
+                                            "link": "https://www.youtube.com/results?search_query=focus+binaural+beats"
+                                          }
+                                        ]
+}
+}
