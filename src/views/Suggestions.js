@@ -6,11 +6,14 @@ import {
     CardTitle,
     Row,
     Col,
+    CardLink,
   } from "reactstrap";
 import Camera from "assets/img/card_images/camera_1.png"
 import { useEffect} from "react";
 import { useState } from "react";
 import Footer from "components/Footer/Footer";
+import BgImage from "assets/img/mountain.jpg"
+
 const Suggestions = () => {
 
     const [listResults, setBlogs] = useState(null)
@@ -24,7 +27,7 @@ const Suggestions = () => {
             return res.json();
           })
           .then(data => {
-              switch(emotion){
+              switch(emotion.toLocaleLowerCase()){
                   case '"happy"':
                       setBlogs(data.happy);
                       break;
@@ -35,16 +38,16 @@ const Suggestions = () => {
                         setBlogs(data.angry);
                             break;
                             case '"disgust"':
-                                setBlogs(data.disgust);
+                                setBlogs(data.relaxed);
                                 break;
                                 case '"fear"':
                                     setBlogs(data.fear);
                                     break;
                                     case '"neutral"':
-                                        setBlogs(data.neutral);
+                                        setBlogs(data.depressed);
                                         break;
-                                        case '"suprised"':
-                                            setBlogs(data.surprised);
+                                        case '"surprised"':
+                                            setBlogs(data.happy);
                                             break;
                                             case '"depressed"':
                                                 setBlogs(data.depressed);
@@ -66,35 +69,38 @@ const Suggestions = () => {
         <div className="area">
         <>
         
-        <div className="wrapper" style={{padding: 50}}>
+        <div className="wrapper" style={{padding: 50,  backgroundImage :`url(${BgImage})`, scrollBehavior:"smooth"}}>
+
         <Row>
             {listResults && listResults.map((suggestion) => (
                 <Col md="8">
                 <Card className="card-chart">
+                    <CardLink href= {suggestion.link}>
                   <CardHeader>
-                    <CardTitle tag="h5">{suggestion.title}</CardTitle>
+                    <CardTitle tag="h5" style={{alignContent: "center", color:"black"}}>{suggestion.title}</CardTitle>
                    
                   </CardHeader>
                   <CardBody>
                     <Row>
                         <Col>
-                        <div className="content"><img src={Camera} alt="Linked to Youtube" /></div>
+                        <div className="content"><img src={process.env.PUBLIC_URL + suggestion.imgsrc} alt="Linked to Youtube" /></div>
                         </Col>
-                        <Col style={{alignContent: "start"}}>
+                        <Col style={{alignContent: "start", color:"black"}}>
                         {suggestion.description}
                         </Col>
                     </Row>
                   </CardBody>
                   <CardFooter>
-                    <div className="chart-legend">
+                    <div className="chart-legend" style={{alignContent: "center", color:"black"}}>
                     <i class="fab fa-youtube" style={{color: "red"}}></i>{" Youtube" } 
                     
                     </div>
                     <hr />
-                    <div className="card-stats">
+                    <div className="card-stats" style={{alignContent: "center", color:"black"}}>
                     <i class="far fa-clock">{" "+suggestion.duration}</i>
                     </div>
                   </CardFooter>
+                  </CardLink>
                 </Card>
               </Col>
             ))}

@@ -47,13 +47,13 @@ function Sidebar(props) {
   });
   return (
     <div
-      className="sidebar"
+      className ="sidebar"
       data-color={props.bgColor}
       data-active-color={props.activeColor}
     >
       <div className="logo">
         <a
-          href="https://www.creative-tim.com"
+          href="/Home"
           className="simple-text logo-mini"
         >
           <div className="logo-img">
@@ -61,7 +61,7 @@ function Sidebar(props) {
           </div>
         </a>
         <a
-          href="/DashBoard"
+          href="/Home"
           className="simple-text logo-normal"
         >
           Harmony

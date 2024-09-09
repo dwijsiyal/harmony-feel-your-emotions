@@ -6,6 +6,7 @@ import detectCard from "assets/img/card_images/camera_1.png"
 import play from "assets/img/play.png"
 import { Button } from 'react-bootstrap';
 import Footer from "components/Footer/Footer";
+import BgImage from "assets/img/mountain.jpg"
 
 // reactstrap components
 import {
@@ -66,7 +67,7 @@ const handleClick = (e) => {
   window.location.replace = "http://127.0.0.1:5000";
 }
     return(
-        <div className="area" style={{padding: 50}}>
+        <div className="area" style={{padding: 50, backgroundImage :`url(${BgImage})` }}>
           <>
         <div className="content">
         
@@ -115,29 +116,15 @@ const handleClick = (e) => {
               <Col> </Col>
    
             </Row>
-            {mainCards.map((mainCard) => (
 
-            <Row>
-              <Col>
-
-              </Col>
-              <Col>
-              <div className="content"><a href ="#">
-                  <div className="text-success logo-img" style={{alignSelf:"center"}}><img src={mainCard.imgsrc} alt="react-logo" /></div>
-                  </a></div>
-                  <div className="content">{mainCard.info}</div>
-              </Col>
-              <Col> </Col>
-
-            </Row>
-            ))}
 
             </div>
 
             </>
 
-
             <Footer fluid />
+ 
+
 </div>
 
     );

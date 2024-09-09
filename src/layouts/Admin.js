@@ -10,6 +10,7 @@ import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
 
 import routes from "routes.js";
 import Background from "variables/custombackgroud";
+import BgImage from "assets/img/bodybgg.jpg"
 
 var ps;
 
@@ -48,7 +49,7 @@ function Dashboard(props) {
         bgColor={backgroundColor}
         activeColor={activeColor}
       />
-      <div className="main-panel" ref={mainPanel}>
+      <div className="main-panel" ref={mainPanel} >
         <Switch>
           {routes.map((prop, key) => {
             return (

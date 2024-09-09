@@ -1,13 +1,14 @@
 from flask import Flask, render_template, Response, redirect, make_response, after_this_request
 import cv2
 import numpy as np
-from tensorflow.keras.models import model_from_json  
+from tensorflow import keras
 from tensorflow.keras.preprocessing import image
 import time
   
 
 #load model  
-model = model_from_json(open("fer.json", "r").read())  
+model = keras.models.model_from_json(open("fer.json", "r").read())
+# model = keras.models.load_model('emotion')
 
 #load weights  
 model.load_weights('fer.h5')
@@ -92,9 +93,11 @@ def video_feed():
 @app.route('/')
 def index():
     global starttime
-
-
     return render_template('index.html')
+
+@app.route('/redirect')
+def redirectPage():
+    return redirect('http://localhost:3000/admin/Suggestions?emotion="' + emotion + '"' )
 
 
 # def delayRedirect():
