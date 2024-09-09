@@ -76,3 +76,9 @@ Harmony is a step towards improving mental health accessibility and awareness. B
 - Arya Shah - Master of Computer Science @ Stevens Institute of Technology
 - Shivam Patel - Master of Computer Science @ Stevens Institute of Technology
 - Guided By: Prof. Vaibhav Gandhi Professor at Navrachana University
+
+## Prerecorded Demo:
+
+https://github.com/user-attachments/assets/ea9163c3-db75-4c47-b407-788b96e267a6 
+
+
